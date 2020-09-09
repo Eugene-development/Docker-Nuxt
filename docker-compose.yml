@@ -3,7 +3,7 @@ version: "3"
 services:
   nuxt:
     build: .
-    container_name: vuevixens-website
+    container_name: nuxt_app
     restart: always
     ports:
       - "3000:3000"
